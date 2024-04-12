@@ -18,6 +18,10 @@
     color:  var(--blanco);
   }
 
+  h1{
+    color: blue;
+  }
+
   .header {
     position: fixed;
     top: 0;
