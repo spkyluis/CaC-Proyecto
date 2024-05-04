@@ -24,10 +24,15 @@ function escribirDatos(){
     document.write("</tr>");
 
     document.write("<tr>");
-    document.write("<td><img src='./imagenes/articulo"+i+".jpg' alt='Imagen del artículo"+i+"' width='50px''></td>");
+    document.write("<td><img src='./imagenes/articulo"+i+".jpg' alt='Imagen del artículo"+i+"' width='250px''></td>");
     document.write("</tr>");
 
     document.write("<tr><td>&nbsp;</td></tr>");
    }
    document.write("</table>");
+   }
+
+   function anio(){
+      let anioActual = new Date().getFullYear();
+      return anioActual;
    }
